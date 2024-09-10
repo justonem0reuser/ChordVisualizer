@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT name="ChordVisualizer" version="1.0.0" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="1" id="zAEO6D" jucerFormatVersion="1"
+              displaySplashScreen="1" headerPath="c:\usr\include\" companyWebsite="https://github.com/justonem0reuser"
+              companyName="Just1m0reApp">
+  <MAINGROUP id="uLjWJ6" name="ChordVisualizer">
+    <GROUP id="{1C31A240-C708-5D82-7169-079E742096C8}" name="PlayerStates">
+      <FILE id="CdGXRM" name="ContentChangedPlayerState.cpp" compile="1"
+            resource="0" file="Source/ContentChangedPlayerState.cpp"/>
+      <FILE id="JS9sSM" name="ContentChangedPlayerState.h" compile="0" resource="0"
+            file="Source/ContentChangedPlayerState.h"/>
+      <FILE id="yD0K4d" name="ContentChangingPlayerState.cpp" compile="1"
+            resource="0" file="Source/ContentChangingPlayerState.cpp"/>
+      <FILE id="wBc8gd" name="ContentChangingPlayerState.h" compile="0" resource="0"
+            file="Source/ContentChangingPlayerState.h"/>
+      <FILE id="m6VvJC" name="NoContentPlayerState.cpp" compile="1" resource="0"
+            file="Source/NoContentPlayerState.cpp"/>
+      <FILE id="VVD7o2" name="NoContentPlayerState.h" compile="0" resource="0"
+            file="Source/NoContentPlayerState.h"/>
+      <FILE id="ayl1sW" name="PausedPlayerState.cpp" compile="1" resource="0"
+            file="Source/PausedPlayerState.cpp"/>
+      <FILE id="u73AhZ" name="PausedPlayerState.h" compile="0" resource="0"
+            file="Source/PausedPlayerState.h"/>
+      <FILE id="ITRRHH" name="PausingPlayerState.cpp" compile="1" resource="0"
+            file="Source/PausingPlayerState.cpp"/>
+      <FILE id="jGk8dE" name="PausingPlayerState.h" compile="0" resource="0"
+            file="Source/PausingPlayerState.h"/>
+      <FILE id="AoYFqK" name="PlayerState.h" compile="0" resource="0" file="Source/PlayerState.h"/>
+      <FILE id="gAMOzb" name="PlayingPlayerState.cpp" compile="1" resource="0"
+            file="Source/PlayingPlayerState.cpp"/>
+      <FILE id="cLVyjH" name="PlayingPlayerState.h" compile="0" resource="0"
+            file="Source/PlayingPlayerState.h"/>
+      <FILE id="pgWFe5" name="StartingPlayerState.cpp" compile="1" resource="0"
+            file="Source/StartingPlayerState.cpp"/>
+      <FILE id="NZLa4G" name="StartingPlayerState.h" compile="0" resource="0"
+            file="Source/StartingPlayerState.h"/>
+      <FILE id="hyqWZh" name="StoppedPlayerState.cpp" compile="1" resource="0"
+            file="Source/StoppedPlayerState.cpp"/>
+      <FILE id="Yom1Gk" name="StoppedPlayerState.h" compile="0" resource="0"
+            file="Source/StoppedPlayerState.h"/>
+      <FILE id="pi3QLg" name="StoppingPlayerState.cpp" compile="1" resource="0"
+            file="Source/StoppingPlayerState.cpp"/>
+      <FILE id="N20XhE" name="StoppingPlayerState.h" compile="0" resource="0"
+            file="Source/StoppingPlayerState.h"/>
+    </GROUP>
+    <GROUP id="{16894F51-A192-9405-0658-22D809910BD4}" name="Resources">
+      <FILE id="cxDyEz" name="open.png" compile="0" resource="1" file="Resources/open.png"/>
+      <FILE id="LFek3y" name="pause.png" compile="0" resource="1" file="Resources/pause.png"/>
+      <FILE id="Dokvmp" name="play.png" compile="0" resource="1" file="Resources/play.png"/>
+      <FILE id="MzWRve" name="playPause.png" compile="0" resource="1" file="Resources/playPause.png"/>
+      <FILE id="EMjrR5" name="settings.png" compile="0" resource="1" file="Resources/settings.png"/>
+      <FILE id="NjY85q" name="stop.png" compile="0" resource="1" file="Resources/stop.png"/>
+    </GROUP>
+    <GROUP id="{59E4BBC5-6B8B-5BA2-36DD-6E138EBF90D2}" name="Source">
+      <FILE id="WBhFFu" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="vGTcNR" name="MainContentComponent.cpp" compile="1" resource="0"
+            file="Source/MainContentComponent.cpp"/>
+      <FILE id="A7oVFy" name="MainContentComponent.h" compile="0" resource="0"
+            file="Source/MainContentComponent.h"/>
+      <FILE id="K5JFi1" name="SettingsComponent.cpp" compile="1" resource="0"
+            file="Source/SettingsComponent.cpp"/>
+      <FILE id="scSi1y" name="SettingsComponent.h" compile="0" resource="0"
+            file="Source/SettingsComponent.h"/>
+      <FILE id="RzxAbl" name="SettingsWindow.cpp" compile="1" resource="0"
+            file="Source/SettingsWindow.cpp"/>
+      <FILE id="dwl9wt" name="SettingsWindow.h" compile="0" resource="0"
+            file="Source/SettingsWindow.h"/>
+    </GROUP>
+    <FILE id="NBB6LQ" name="CVLookAndFeel.cpp" compile="1" resource="0"
+          file="Source/CVLookAndFeel.cpp"/>
+    <FILE id="w60Jms" name="CVLookAndFeel.h" compile="0" resource="0" file="Source/CVLookAndFeel.h"/>
+    <FILE id="f67vAC" name="ExtractorExceptions.h" compile="0" resource="0"
+          file="Source/ExtractorExceptions.h"/>
+    <FILE id="ROjb1E" name="ChordinoFeatureExtractor.cpp" compile="1" resource="0"
+          file="Source/ChordinoFeatureExtractor.cpp"/>
+    <FILE id="Yer4WB" name="ChordinoFeatureExtractor.h" compile="0" resource="0"
+          file="Source/ChordinoFeatureExtractor.h"/>
+    <FILE id="lnSKLy" name="ChordVisualizer.cpp" compile="1" resource="0"
+          file="Source/ChordVisualizer.cpp"/>
+    <FILE id="kWn9ut" name="ChordVisualizer.h" compile="0" resource="0"
+          file="Source/ChordVisualizer.h"/>
+    <FILE id="bhFaWE" name="ChordInfo.h" compile="0" resource="0" file="Source/ChordInfo.h"/>
+    <FILE id="U05Shn" name="ParameterInfo.h" compile="0" resource="0" file="Source/ParameterInfo.h"/>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022" externalLibraries="vamp-sdk.lib; vamp-hostsdk.lib">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" libraryPath="c:\usr\lib" optimisation="1"
+                       linkTimeOptimisation="0" debugInformationFormat="ProgramDatabase"/>
+        <CONFIGURATION isDebug="0" name="Release" libraryPath="c:\usr\lib"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_dsp" path="../../juce-7.0.5-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile" externalLibraries="vamp-sdk.lib; vamp-hostsdk.lib">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" libraryPath="c:\usr\lib"/>
+        <CONFIGURATION isDebug="0" name="Release" libraryPath="c:\usr\lib"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_dsp" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <XCODE_MAC targetFolder="Builds/MacOSX" externalLibraries="vamp-sdk.lib; vamp-hostsdk.lib">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" libraryPath="c:\usr\lib"/>
+        <CONFIGURATION isDebug="0" name="Release" libraryPath="c:\usr\lib"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_dsp" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
