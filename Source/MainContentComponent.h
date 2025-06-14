@@ -3,7 +3,7 @@
 #include <JuceHeader.h>
 #include "ChordVisualizer.h"
 #include "ChordinoFeatureExtractor.h"
-#include "PlayerState.h"
+#include "PlayerStates/PlayerState.h"
 #include "SettingsWindow.h"
 #include "ParameterInfo.h"
 #include "CVLookAndFeel.h"
@@ -50,7 +50,7 @@ private:
     const std::string openPageCmdStr = "start";
 #elif JUCE_MAC
     const std::string openPageCmdStr = "xdg-open";
-#elif
+#else
     const std::string openPageCmdStr = "open";
 #endif
     const std::string pluginAddressStr = "http://isophonics.net/nnls-chroma";

@@ -1,7 +1,7 @@
 #include "MainContentComponent.h"
-#include "NoContentPlayerState.h"
-#include "ContentChangingPlayerState.h"
-#include "ContentChangedPlayerState.h"
+#include "PlayerStates/NoContentPlayerState.h"
+#include "PlayerStates/ContentChangingPlayerState.h"
+#include "PlayerStates/ContentChangedPlayerState.h"
 #include "ExtractorExceptions.h"
 
 MainContentComponent::MainContentComponent() :

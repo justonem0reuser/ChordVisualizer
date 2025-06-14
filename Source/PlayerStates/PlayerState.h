@@ -1,6 +1,6 @@
 #pragma once
 
-#include "MainContentComponent.h"
+#include "../MainContentComponent.h"
 
 class MainContentComponent;
 

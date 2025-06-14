@@ -15,43 +15,43 @@
     </GROUP>
     <GROUP id="{59E4BBC5-6B8B-5BA2-36DD-6E138EBF90D2}" name="Source">
       <GROUP id="{1C31A240-C708-5D82-7169-079E742096C8}" name="PlayerStates">
-        <FILE id="CdGXRM" name="ContentChangedPlayerState.cpp" compile="1"
-              resource="0" file="Source/ContentChangedPlayerState.cpp"/>
-        <FILE id="JS9sSM" name="ContentChangedPlayerState.h" compile="0" resource="0"
-              file="Source/ContentChangedPlayerState.h"/>
-        <FILE id="yD0K4d" name="ContentChangingPlayerState.cpp" compile="1"
-              resource="0" file="Source/ContentChangingPlayerState.cpp"/>
-        <FILE id="wBc8gd" name="ContentChangingPlayerState.h" compile="0" resource="0"
-              file="Source/ContentChangingPlayerState.h"/>
-        <FILE id="m6VvJC" name="NoContentPlayerState.cpp" compile="1" resource="0"
-              file="Source/NoContentPlayerState.cpp"/>
-        <FILE id="VVD7o2" name="NoContentPlayerState.h" compile="0" resource="0"
-              file="Source/NoContentPlayerState.h"/>
-        <FILE id="ayl1sW" name="PausedPlayerState.cpp" compile="1" resource="0"
-              file="Source/PausedPlayerState.cpp"/>
-        <FILE id="u73AhZ" name="PausedPlayerState.h" compile="0" resource="0"
-              file="Source/PausedPlayerState.h"/>
-        <FILE id="ITRRHH" name="PausingPlayerState.cpp" compile="1" resource="0"
-              file="Source/PausingPlayerState.cpp"/>
-        <FILE id="jGk8dE" name="PausingPlayerState.h" compile="0" resource="0"
-              file="Source/PausingPlayerState.h"/>
-        <FILE id="AoYFqK" name="PlayerState.h" compile="0" resource="0" file="Source/PlayerState.h"/>
-        <FILE id="gAMOzb" name="PlayingPlayerState.cpp" compile="1" resource="0"
-              file="Source/PlayingPlayerState.cpp"/>
-        <FILE id="cLVyjH" name="PlayingPlayerState.h" compile="0" resource="0"
-              file="Source/PlayingPlayerState.h"/>
-        <FILE id="pgWFe5" name="StartingPlayerState.cpp" compile="1" resource="0"
-              file="Source/StartingPlayerState.cpp"/>
-        <FILE id="NZLa4G" name="StartingPlayerState.h" compile="0" resource="0"
-              file="Source/StartingPlayerState.h"/>
-        <FILE id="hyqWZh" name="StoppedPlayerState.cpp" compile="1" resource="0"
-              file="Source/StoppedPlayerState.cpp"/>
-        <FILE id="Yom1Gk" name="StoppedPlayerState.h" compile="0" resource="0"
-              file="Source/StoppedPlayerState.h"/>
-        <FILE id="pi3QLg" name="StoppingPlayerState.cpp" compile="1" resource="0"
-              file="Source/StoppingPlayerState.cpp"/>
-        <FILE id="N20XhE" name="StoppingPlayerState.h" compile="0" resource="0"
-              file="Source/StoppingPlayerState.h"/>
+        <FILE id="tZm9sy" name="ContentChangedPlayerState.cpp" compile="1"
+              resource="0" file="Source/PlayerStates/ContentChangedPlayerState.cpp"/>
+        <FILE id="JOwgCb" name="ContentChangedPlayerState.h" compile="0" resource="0"
+              file="Source/PlayerStates/ContentChangedPlayerState.h"/>
+        <FILE id="Sen3Ml" name="ContentChangingPlayerState.cpp" compile="1"
+              resource="0" file="Source/PlayerStates/ContentChangingPlayerState.cpp"/>
+        <FILE id="Fv6bk4" name="ContentChangingPlayerState.h" compile="0" resource="0"
+              file="Source/PlayerStates/ContentChangingPlayerState.h"/>
+        <FILE id="ZTnFP9" name="NoContentPlayerState.cpp" compile="1" resource="0"
+              file="Source/PlayerStates/NoContentPlayerState.cpp"/>
+        <FILE id="vIZin0" name="NoContentPlayerState.h" compile="0" resource="0"
+              file="Source/PlayerStates/NoContentPlayerState.h"/>
+        <FILE id="WUxcyZ" name="PausedPlayerState.cpp" compile="1" resource="0"
+              file="Source/PlayerStates/PausedPlayerState.cpp"/>
+        <FILE id="Eerxsd" name="PausedPlayerState.h" compile="0" resource="0"
+              file="Source/PlayerStates/PausedPlayerState.h"/>
+        <FILE id="EwAEuI" name="PausingPlayerState.cpp" compile="1" resource="0"
+              file="Source/PlayerStates/PausingPlayerState.cpp"/>
+        <FILE id="rr0ZqG" name="PausingPlayerState.h" compile="0" resource="0"
+              file="Source/PlayerStates/PausingPlayerState.h"/>
+        <FILE id="UwJf7x" name="PlayerState.h" compile="0" resource="0" file="Source/PlayerStates/PlayerState.h"/>
+        <FILE id="Ga69Aa" name="PlayingPlayerState.cpp" compile="1" resource="0"
+              file="Source/PlayerStates/PlayingPlayerState.cpp"/>
+        <FILE id="hc8OZ9" name="PlayingPlayerState.h" compile="0" resource="0"
+              file="Source/PlayerStates/PlayingPlayerState.h"/>
+        <FILE id="AeJYLY" name="StartingPlayerState.cpp" compile="1" resource="0"
+              file="Source/PlayerStates/StartingPlayerState.cpp"/>
+        <FILE id="xpHECF" name="StartingPlayerState.h" compile="0" resource="0"
+              file="Source/PlayerStates/StartingPlayerState.h"/>
+        <FILE id="dDHWWx" name="StoppedPlayerState.cpp" compile="1" resource="0"
+              file="Source/PlayerStates/StoppedPlayerState.cpp"/>
+        <FILE id="vOkxXt" name="StoppedPlayerState.h" compile="0" resource="0"
+              file="Source/PlayerStates/StoppedPlayerState.h"/>
+        <FILE id="OrX9jD" name="StoppingPlayerState.cpp" compile="1" resource="0"
+              file="Source/PlayerStates/StoppingPlayerState.cpp"/>
+        <FILE id="CYDoFO" name="StoppingPlayerState.h" compile="0" resource="0"
+              file="Source/PlayerStates/StoppingPlayerState.h"/>
       </GROUP>
       <FILE id="NBB6LQ" name="CVLookAndFeel.cpp" compile="1" resource="0"
             file="Source/CVLookAndFeel.cpp"/>
