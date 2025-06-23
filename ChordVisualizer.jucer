@@ -100,9 +100,9 @@
   <EXPORTFORMATS>
     <VS2022 targetFolder="Builds/VisualStudio2022" externalLibraries="vamp-sdk.lib; vamp-hostsdk.lib">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" libraryPath="c:\usr\lib" optimisation="1"
+        <CONFIGURATION isDebug="1" name="Debug" libraryPath="c:\usr\lib\vamp" optimisation="1"
                        linkTimeOptimisation="0" debugInformationFormat="ProgramDatabase"/>
-        <CONFIGURATION isDebug="0" name="Release" libraryPath="c:\usr\lib"/>
+        <CONFIGURATION name="Release" libraryPath="c:\usr\lib\vamp"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_audio_basics" path="C:\Users\-\source\juce-7.0.5-windows\JUCE\modules"/>

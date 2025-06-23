@@ -53,10 +53,10 @@ private:
 #else
     const std::string openPageCmdStr = "open";
 #endif
-    const std::string pluginAddressStr = "http://isophonics.net/nnls-chroma";
+    const std::string pluginAddressStr = "https://www.vamp-plugins.org/pack.html";
     const std::string pluginAddressCmdStr = openPageCmdStr + " " + pluginAddressStr;
     const std::string loadingFileErrStr = "Unknown audio file format";
-    const std::string pluginNotInstalledErrStr = "NNLS::chordino plugin is not installed. Do you want to open NNLS-chroma web page to install it manually?";
+    const std::string pluginNotInstalledErrStr = "NNLS::chordino plugin is not installed. Do you want to open VAMP plugin pack web page to install it manually?";
     const std::string readingFileErrStr = "Cannot read audio file";
     const std::string noChordsErrStr = "No chords are extracted";
 
